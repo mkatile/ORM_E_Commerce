@@ -1,5 +1,5 @@
 {
-  "name": "ORM_E_Commerce",
+  "name": "module-13-challenge-orm",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -26,4 +26,3 @@
     "sequelize": "^5.21.7"
   }
 }
-
