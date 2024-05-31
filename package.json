@@ -1,17 +1,17 @@
 {
-  "name": "ORM_E_Commerce",
+  "name": "orm_e_commerce",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node Develop/seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "https://github.com/mkatile/ORM_E_Commerce.git"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +22,10 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pg": "^8.11.3",
-    "sequelize": "^5.21.7"
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^5.22.5",
+    "sequelize-cli": "^6.6.2"
   }
 }
 
